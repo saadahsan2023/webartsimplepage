@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(242, 237, 237);
+    /* background-color: red; */
+    
+}
+html{
+    font-size: 62.5%;
+}
+.navbar{
+    height: 18vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar h1{
+    font-size: 4rem;
+    font-family: "Dancing Script", cursive;
+    padding-left: 3rem;
+}
+.nav ul {
+    display: flex;
+}
+.nav ul li a{
+     font-size: 1.7rem;
+     font-family: "Raleway", sans-serif;
+     /* font-family: "Roboto", sans-serif; */
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    margin-left: 5rem;
+    transition: all 0.5s;
+}
+.nav ul li a:hover{
+    color: #1f1f1f;
+}
+.nav-icon i{
+    font-size: 2.5rem;
+   padding-right: 3.5rem;
+}
+.nav-icon i:hover{
+    color: #1f1f1f;
+    cursor: pointer;
+}
+.header-hed{
+    height: calc(110vh - 18vh);
+    /* background-color: aqua; */
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+
+}
+.heading-img img{
+    width: 80vh;
+    height: 90vh;
+    margin-right:4rem;
+    margin-top:5rem;
+}
+.heading h1{
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-family: "PT Serif", serif;
+    width: 100vh;
+    word-spacing: 0.7rem;
+    line-height: 6rem;
+    margin-left: 3rem;
+    text-align: start;
+}
+.heading p {
+    font-size: 1.7rem;
+    font-family: "Roboto", sans-serif;
+    /* font-weight: bold; */
+    width: 110vh;
+    text-align: justify;
+    color: #000;
+    word-spacing: 0.1rem;
+    letter-spacing: .1rem;
+           margin-left: 3rem;
+           margin-top: 2rem;
+           line-height: 3rem;
+}
+.btn{
+    width: 50vh;
+    padding: 2rem 1rem 2rem 1rem ;
+    border-radius: .5rem;
+    background-color: #000;
+    color: aliceblue;
+    border: none;
+    margin-left: 3rem;
+    margin-top: 2.5rem;
+    font-size: 1.7rem;
+ font-weight: 600;
+ transition: all 0.5s;
+}
+.btn:hover{
+    background-color: #1f1f1f;
+    cursor: pointer;
+}
